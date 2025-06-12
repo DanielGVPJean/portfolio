@@ -6,6 +6,7 @@ export const personalInfo: PersonalInfo = {
   email: 'danielgvpj@outlook.com',
   phone: '(+52) 56 3587 3290',
   linkedin: 'linkedin.com/in/danielgvpj/',
+  github: 'github.com/DanielGVPJean/portfolio',
   profileImage: 'images/profile.jpeg',
 }
 

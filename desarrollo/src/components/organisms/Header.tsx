@@ -1,7 +1,7 @@
 import React from 'react'
 import { ScrambleText } from '../atoms/ScrambleText'
 import { personalInfo } from '../../data/portfolio'
-import { Mail, Phone, Linkedin } from 'lucide-react'
+import { Mail, Phone, Linkedin, Github } from 'lucide-react'
 
 export const Header: React.FC = () => {
   return (
@@ -63,6 +63,18 @@ export const Header: React.FC = () => {
               <Linkedin size={16} className="text-gray-600 group-hover:text-black" />
               <ScrambleText 
                 text={personalInfo.linkedin}
+                className="text-gray-700 group-hover:text-black text-xs"
+              />
+            </a>
+            <a 
+              href={`https://${personalInfo.github}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 p-2.5 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors group"
+            >
+              <Github size={16} className="text-gray-600 group-hover:text-black" />
+              <ScrambleText 
+                text={personalInfo.github}
                 className="text-gray-700 group-hover:text-black text-xs"
               />
             </a>

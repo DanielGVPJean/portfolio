@@ -19,6 +19,10 @@ yarn-error.log
 /.vagrant
 .DS_Store
 
+
 # Project specific ignores
 CHANGELOG.md
 versions-main.log
+
+# SEO files (should be customized per deployment)
+desarrollo/public/robots.txt

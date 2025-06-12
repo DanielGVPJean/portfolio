@@ -84,6 +84,7 @@ export const personalInfo: PersonalInfo = {
   email: 'your.email@domain.com',
   phone: '(+XX) XX XXXX XXXX',
   linkedin: 'linkedin.com/in/yourprofile/',
+  github: 'github.com/company/yourprofile/',
   profileImage: 'images/your-profile.jpeg',
 }
 ```
