@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /OLD/
+Disallow: /subdomains/
+
+Sitemap: https://your-domain.com/sitemap.xml

@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/DanielGVPJean/portfolio/compare/v1.0.0...v1.1.0) (2025-06-12)
+
+
+### Features
+
+* Added github option to personal info ([0045160](https://github.com/DanielGVPJean/portfolio/commit/00451602edc71f4684470215ee5e26713838fac9))
+
+# 1.0.0 (2025-06-12)
+
+
+### Features
+
+* first deployment w/o examples ([43b8cf0](https://github.com/DanielGVPJean/portfolio/commit/43b8cf08e260e8af2b1a78ee8b87f64c578153d4))
+
 ## [1.1.3](https://github.com/Integra-Meetings/mailing_api/compare/v1.1.2...v1.1.3) (2025-02-13)
 
 
