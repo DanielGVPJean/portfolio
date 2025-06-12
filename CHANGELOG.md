@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/DanielGVPJean/portfolio/compare/v1.1.0...v1.1.1) (2025-06-12)
+
+
+### Bug Fixes
+
+* replace profile picture size ([0d87671](https://github.com/DanielGVPJean/portfolio/commit/0d87671218de38b1acb652f6345975f8ac27b960))
+
 # [1.1.0](https://github.com/DanielGVPJean/portfolio/compare/v1.0.0...v1.1.0) (2025-06-12)
 
 
