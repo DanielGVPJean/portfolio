@@ -7,7 +7,7 @@ export const personalInfo: PersonalInfo = {
   phone: '(+52) 56 3587 3290',
   linkedin: 'linkedin.com/in/danielgvpj/',
   github: 'github.com/DanielGVPJean/portfolio',
-  profileImage: 'images/profile.jpeg',
+  profileImage: 'images/profile.png',
 }
 
 export const experiences: Experience[] = [
@@ -31,8 +31,8 @@ export const experiences: Experience[] = [
     achievements: [
       {
         text: 'Pioneered offline-first architecture using IndexedDB, reducing load times by 10+ seconds',
-        hasExample: false,
-        exampleUrl: '/videos/offline-architecture-demo.webm',
+        hasExample: true,
+        exampleUrl: '/videos/load_example.mp4',
         mediaType: 'video'
       },
       {
