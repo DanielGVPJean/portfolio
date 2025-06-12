@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+  background: linear-gradient(45deg, #28195A, #0E0B32, #28195A, #0E0B32);
+  background-size: 400% 400%;
+  animation: gradientMove 8s ease infinite;
+  color: #ffffff;
+  line-height: 1.6;
+  min-height: 100vh;
+  font-size: 90%; /* 10% más pequeño */
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Animaciones para el modal */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom-in-95 {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-in {
+  animation-fill-mode: both;
+}
+
+.fade-in {
+  animation-name: fade-in;
+}
+
+.zoom-in-95 {
+  animation-name: zoom-in-95;
+}
+
+.duration-300 {
+  animation-duration: 300ms;
+}
+
+@layer components {
+  .tech-tag {
+    @apply inline-flex items-center px-3 py-1 rounded-md text-xs font-medium transition-all duration-300 cursor-pointer border border-transparent;
+    background: linear-gradient(135deg, #A62205, #F23207);
+    color: white;
+  }
+
+  .tech-tag:hover {
+    background: linear-gradient(135deg, #F23207, #F2600C);
+    @apply border-primary-400 transform -translate-y-0.5;
+    box-shadow: 0 4px 12px rgba(242, 50, 7, 0.3);
+  }
+
+  .example-btn {
+    @apply inline-flex items-center px-2 py-1 rounded text-xs font-medium transition-all duration-300 cursor-pointer;
+    background: rgba(204, 242, 65, 0.1);
+    color: #CCF241;
+    border: 1px solid rgba(204, 242, 65, 0.3);
+  }
+
+  .example-btn:hover {
+    background: rgba(204, 242, 65, 0.2);
+    @apply transform -translate-y-0.5;
+    box-shadow: 0 4px 12px rgba(204, 242, 65, 0.2);
+  }
+
+  .container-custom {
+    @apply max-w-6xl mx-auto px-7;
+  }
+
+  @media (max-width: 1200px) {
+    .container-custom {
+      @apply max-w-full px-5;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .container-custom {
+      @apply px-4;
+    }
+  }
+}
+
+/* Asegurar que las secciones tengan suficiente espacio para el navbar */
+section {
+  scroll-margin-top: 6rem; /* Equivalente a scroll-mt-24 */
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}

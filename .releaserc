@@ -1,6 +1,6 @@
 {
     "branches": ["staging"],
-    "repositoryUrl": "https://github.com/Integra-Meetings/mailing_api",
+    "repositoryUrl": "https://github.com/DanielGVPJean/portfolio",
     "tagFormat": "v${version}",
     "plugins": [
       "@semantic-release/commit-analyzer",
