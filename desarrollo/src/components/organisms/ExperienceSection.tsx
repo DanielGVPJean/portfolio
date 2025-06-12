@@ -81,7 +81,7 @@ export const ExperienceSection: React.FC = () => {
                   key={achIndex}
                   className="flex items-start gap-2"
                 >
-                  <span className="text-orange-400 mt-0.5">•</span>
+                  <span className="text-green-500 mt-0.5">•</span>
                   <div className="flex-1">
                     <span>{achievement.text}</span>
                     {achievement.hasExample && (

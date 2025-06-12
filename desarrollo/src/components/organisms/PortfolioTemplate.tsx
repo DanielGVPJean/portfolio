@@ -23,7 +23,7 @@ export const PortfolioTemplate: React.FC = () => {
           </div>
           
           {/* Content - Right Side */}
-          <div className="lg:w-2/3 bg-black/80 backdrop-blur-sm rounded-3xl p-7 border border-white/10 relative">
+          <div className="lg:w-2/3 bg-black/80 rounded-3xl p-7 border border-white/10 relative shadow-2xl shadow-black/80">
             <SkillsSection />
             <ExperienceSection />
           </div>
