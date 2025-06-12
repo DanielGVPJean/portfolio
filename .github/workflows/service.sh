@@ -3,13 +3,13 @@
 
 # Declarar un array asociativo con la configuración
 declare -A config=(
-  ["SERVICE_NAME"]="" # Nombre Del Servicio Ejemplo: amg-frontend
-  ["SERVICE_TYPE"]=""    # "frontend" o "backend"
+  ["SERVICE_NAME"]="Personal Portfolio" # Nombre Del Servicio Ejemplo: amg-frontend
+  ["SERVICE_TYPE"]="frontend"    # "frontend" o "backend"
   ["PROJECT_SRC"]="./desarrollo"
   ["BUILD_DIR"]="./desarrollo/dist" # Directorio de build (si no se especifica, se asume "desarrollo")
-  ["DEV_SERVICE_URL"]="" # URL del servicio en desarrollo
-  ["PROD_SERVICE_URL"]="" # URL del servicio en producción
-  ["FRAMEWORK"]="" # Framework de desarrollo (react, vue, laravel, astro, etc.)
+  ["DEV_SERVICE_URL"]="https://staging.danielgv.com" # URL del servicio en desarrollo
+  ["PROD_SERVICE_URL"]="https://danielgv.com" # URL del servicio en producción
+  ["FRAMEWORK"]="React" # Framework de desarrollo (react, vue, laravel, astro, etc.)
 )
 
 # Iterar sobre el array y exportar cada variable al entorno de GitHub Actions
