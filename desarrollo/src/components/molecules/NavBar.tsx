@@ -16,12 +16,14 @@ export const NavBar: React.FC = () => {
       // Posición actual del scroll
       const offsetPosition = elementPosition + window.pageYOffset
       
-      // Altura del navbar (aproximadamente) + espacio adicional
+      // En mobile (< 640px) el navbar está abajo, no necesita offset
+      // En tablet/desktop (≥ 640px) el navbar está arriba, necesita offset
+      const isMobile = window.innerWidth < 640
       const navbarHeight = 80
       const additionalOffset = 20
-      const totalOffset = navbarHeight + additionalOffset
+      const totalOffset = isMobile ? 0 : navbarHeight + additionalOffset
       
-      // Hacer scroll con el offset
+      // Hacer scroll con el offset apropiado
       window.scrollTo({
         top: offsetPosition - totalOffset,
         behavior: 'smooth'
@@ -37,7 +39,7 @@ export const NavBar: React.FC = () => {
   const visibleItems = getVisibleItems()
 
   return (
-    <nav className="fixed top-6 left-1/2 transform -translate-x-1/2 z-40">
+    <nav className="fixed bottom-6 sm:top-6 left-1/2 transform -translate-x-1/2 z-40">
       <div className="bg-black/20 backdrop-blur-md rounded-full border border-white/10 shadow-lg">
         {/* Desktop version - solo skills y experience */}
         <div className="hidden lg:flex items-center px-6 py-3">

@@ -15,7 +15,7 @@ export const PortfolioTemplate: React.FC = () => {
     <div className={`min-h-screen transition-opacity duration-500 ${loaded ? 'opacity-100' : 'opacity-0'}`}>
       <NavBar />
       
-      <main className="container-custom pt-20">
+      <main className="container-custom pt-4 sm:pt-20">
         <div className="flex flex-col lg:flex-row gap-7 min-h-screen">
           {/* Profile Card - Left Side */}
           <div className="lg:w-1/3">
@@ -31,7 +31,7 @@ export const PortfolioTemplate: React.FC = () => {
       </main>
       
       <footer className="py-7 text-center text-white/60 mt-16">
-        <p>&copy; 2025 Daniel González Viera Petit-Jean. All rights reserved.</p>
+        <p>&copy; 2025 Daniel González Viera Petit-Jean. Code licensed under MIT License.</p>
       </footer>
     </div>
   )
