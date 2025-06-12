@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/DanielGVPJean/portfolio/compare/v1.1.1...v1.2.0) (2025-06-12)
+
+
+### Features
+
+* navbar position relative to screen size ([795a791](https://github.com/DanielGVPJean/portfolio/commit/795a791efeb2f50459c8ca1b289eb3b901039491))
+
 ## [1.1.1](https://github.com/DanielGVPJean/portfolio/compare/v1.1.0...v1.1.1) (2025-06-12)
 
 
