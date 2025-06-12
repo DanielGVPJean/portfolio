@@ -12,25 +12,12 @@
 
 body {
   font-family: 'JetBrains Mono', monospace;
-  background: linear-gradient(45deg, #28195A, #0E0B32, #28195A, #0E0B32);
-  background-size: 400% 400%;
-  animation: gradientMove 8s ease infinite;
+  background: linear-gradient(90deg, #03001e, #1e1475, #931e51);
+  background-size: 140% 100%;
   color: #ffffff;
   line-height: 1.6;
   min-height: 100vh;
   font-size: 90%; /* 10% más pequeño */
-}
-
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 /* Animaciones para el modal */
@@ -73,20 +60,23 @@ body {
 @layer components {
   .tech-tag {
     @apply inline-flex items-center px-3 py-1 rounded-md text-xs font-medium transition-all duration-300 cursor-pointer border border-transparent;
-    background: linear-gradient(135deg, #A62205, #F23207);
+    background: linear-gradient(45deg, #25239d, #1b64ca, #2f39c5);
+    background-size: 150% 100%;
     color: white;
   }
 
   .tech-tag:hover {
-    background: linear-gradient(135deg, #F23207, #F2600C);
-    @apply border-primary-400 transform -translate-y-0.5;
-    box-shadow: 0 4px 12px rgba(242, 50, 7, 0.3);
+    background: linear-gradient(45deg, #234c9d, #1b81ca, #2f6ec5);
+    background-size: 150% 100%;
+    cursor: default;
+    @apply border-e-primary-900 transform -translate-y-0.5;
+    box-shadow: 0 4px 12px rgba(242, 222, 7, 0.3);
   }
 
   .example-btn {
     @apply inline-flex items-center px-2 py-1 rounded text-xs font-medium transition-all duration-300 cursor-pointer;
-    background: rgba(204, 242, 65, 0.1);
-    color: #CCF241;
+    background: rgba(46, 213, 34, 0.227);
+    color: #51e73a;
     border: 1px solid rgba(204, 242, 65, 0.3);
   }
 
