@@ -7,7 +7,7 @@ export const personalInfo: PersonalInfo = {
   phone: '(+52) 56 3587 3290',
   linkedin: 'linkedin.com/in/danielgvpj/',
   github: 'github.com/DanielGVPJean/portfolio',
-  profileImage: 'images/profile.png',
+  profileImage: 'images/profile.webp',
 }
 
 export const experiences: Experience[] = [
