@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/DanielGVPJean/portfolio/compare/v1.0.0...v1.1.0) (2025-06-12)
+
+
+### Features
+
+* Added github option to personal info ([0045160](https://github.com/DanielGVPJean/portfolio/commit/00451602edc71f4684470215ee5e26713838fac9))
+
 # 1.0.0 (2025-06-12)
 
 
