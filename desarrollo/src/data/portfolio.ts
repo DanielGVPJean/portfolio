@@ -15,7 +15,7 @@ export const experiences: Experience[] = [
     id: '1',
     title: 'Senior Software Engineer | Technical Lead',
     company: 'Cautiva Producciones',
-    period: 'August 2024 – current',
+    period: 'August 2024 - current',
     location: 'Mexico City, México',
     technologies: [
       { name: 'DevOps' },

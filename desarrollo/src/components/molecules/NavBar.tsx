@@ -7,6 +7,8 @@ export const NavBar: React.FC = () => {
     { icon: Zap, label: 'Skills', mobileOnly: false },
     { icon: Briefcase, label: 'Experience', mobileOnly: false }
   ]
+  
+  const isMobile = window.innerWidth < 640
 
   const scrollToSection = (label: string) => {
     const element = document.getElementById(label.toLowerCase())
@@ -18,7 +20,6 @@ export const NavBar: React.FC = () => {
       
       // En mobile (< 640px) el navbar está abajo, no necesita offset
       // En tablet/desktop (≥ 640px) el navbar está arriba, necesita offset
-      const isMobile = window.innerWidth < 640
       const navbarHeight = 80
       const additionalOffset = 20
       const totalOffset = isMobile ? 0 : navbarHeight + additionalOffset
@@ -37,9 +38,10 @@ export const NavBar: React.FC = () => {
   }
 
   const visibleItems = getVisibleItems()
+  const navBarClassName = isMobile ? "bottom-6 sm:top-6" : "sm:top-6"
 
   return (
-    <nav className="fixed bottom-6 sm:top-6 left-1/2 transform -translate-x-1/2 z-40">
+    <nav className={`fixed ${navBarClassName} left-1/2 transform -translate-x-1/2 z-40`}>
       <div className="bg-black/20 backdrop-blur-md rounded-full border border-white/10 shadow-lg">
         {/* Desktop version - solo skills y experience */}
         <div className="hidden lg:flex items-center px-6 py-3">

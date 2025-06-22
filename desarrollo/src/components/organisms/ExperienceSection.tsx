@@ -31,7 +31,7 @@ export const ExperienceSection: React.FC = () => {
   }
 
   return (
-    <section id="experience" className="py-8 pt-4 scroll-mt-24">
+    <section id="experience" className="py-8 pt-24 sm:pt-32 scroll-mt-24">
       <div className="mb-10">
         <ScrambleText 
           text="PROFESSIONAL EXPERIENCE"
