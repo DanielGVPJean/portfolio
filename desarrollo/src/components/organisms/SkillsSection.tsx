@@ -19,7 +19,7 @@ export const SkillsSection: React.FC = () => {
     {
       icon: <Database size={24} />,
       title: 'DATABASE MANAGEMENT',
-      technologies: 'MYSQL, INDEXEDDB, MONGODB',
+      technologies: 'MYSQL, INDEXEDDB',
       color: 'from-orange-500 to-red-600'
     },
     {
