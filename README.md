@@ -4,25 +4,25 @@
 
 **Developed by Daniel González Viera Petit-Jean © 2025**
 
-## 🌟 Live Demo
+## Live Demo
 
 Visit the live portfolio at: [https://danielgv.com](https://danielgv.com)
 
-## 📋 Overview
+## Overview
 
 This is a professional portfolio website built with modern web technologies, featuring interactive animations, smooth navigation, and a sophisticated example modal system. The portfolio showcases work experience, technical skills, and project examples in an elegant, responsive design.
 
 ### Key Features
 
-- 🎨 **Interactive Animations** - ScrambleText effects and smooth transitions
-- 📱 **Responsive Design** - Optimized for all device sizes
-- 🖼️ **Example Modal System** - Display project videos and images
-- 🧭 **Smooth Navigation** - Floating navigation with scroll-to-section
-- ⚡ **Fast Performance** - Built with Vite for optimal loading
-- 🔍 **SEO Optimized** - Complete with robots.txt, sitemap.xml, and meta tags
-- 🎯 **TypeScript** - Fully typed for better development experience
+- **Interactive Animations** - ScrambleText effects and smooth transitions
+- **Responsive Design** - Optimized for all device sizes
+- **Example Modal System** - Display project videos and images
+- **Smooth Navigation** - Floating navigation with scroll-to-section
+- **Fast Performance** - Built with Vite for optimal loading
+- **SEO Optimized** - Complete with robots.txt, sitemap.xml, and meta tags
+- **TypeScript** - Fully typed for better development experience
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 ### Core Technologies
 - **React** `18.2.0` - UI library
@@ -39,7 +39,7 @@ This is a professional portfolio website built with modern web technologies, fea
 - **PostCSS** `8.4.31` - CSS processing
 - **Autoprefixer** `10.4.16` - CSS vendor prefixes
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -71,7 +71,7 @@ This project follows **Atomic Design** methodology:
 - **Organisms**: Complex sections that combine multiple components
 - **Templates**: Page layouts that structure the entire application
 
-## ⚙️ Configuration Guide
+## Configuration Guide
 
 ### Personal Information
 
@@ -139,7 +139,7 @@ const skills = [
 
 ### Example Modal System
 
-The portfolio includes an interactive example system:
+The portfolio includes an interactive example system.
 
 #### Enabling Examples
 1. Set `hasExample: true` in the achievement object
@@ -155,7 +155,7 @@ Place your example files in the `public` folder:
 - **Videos**: `.webm`, `.mp4`
 - **Images**: `.png`, `.jpg`, `.jpeg`
 
-## 🚀 Development
+## Development
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -199,7 +199,7 @@ npm run lint
 
 The development server runs on `http://localhost:5173` with hot module replacement enabled.
 
-## 📦 Build & Deployment
+## Build & Deployment
 
 ### Building for Production
 
@@ -219,7 +219,7 @@ The project includes:
 - **sitemap.xml** - Site structure for SEO
 - **favicon.svg** - Custom favicon with "DG" branding
 
-## 🎨 Customization
+## Customization
 
 ### Styling
 - The project uses Tailwind CSS for styling
@@ -234,7 +234,7 @@ The project includes:
 - Smooth scroll behavior is implemented in `src/components/molecules/NavBar.tsx`
 - Section IDs correspond to navigation targets
 
-## 🔧 Technical Details
+## Technical Details
 
 ### Type Safety
 The project uses TypeScript with custom interfaces:
@@ -255,7 +255,7 @@ The project uses TypeScript with custom interfaces:
 - Structured data for search engines
 - Optimized loading performance
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
