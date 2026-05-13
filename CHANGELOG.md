@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/DanielGVPJean/portfolio/compare/v1.2.0...v1.3.0) (2026-05-13)
+
+
+### Features
+
+* add latest experience and work on role descriptions. ([97bf8fb](https://github.com/DanielGVPJean/portfolio/commit/97bf8fb1217d9540be2ae8e371f489be071aec63))
+
 # [1.2.0](https://github.com/DanielGVPJean/portfolio/compare/v1.1.1...v1.2.0) (2025-06-12)
 
 
