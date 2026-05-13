@@ -82,7 +82,7 @@ export const Header: React.FC = () => {
           
           <div className="mt-5 pt-5 border-t border-gray-200 w-full">
             <ScrambleText 
-              text="Specializing in full-stack development with expertise in React, Laravel, and modern DevOps practices."
+              text="Specializing in full-stack development with expertise in React, Node.js, and modern DevOps practices."
               className="text-gray-600 text-xs leading-relaxed"
               as="p"
             />

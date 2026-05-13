@@ -1,6 +1,6 @@
 import React from 'react'
 import { ScrambleText } from '../atoms/ScrambleText'
-import { Code, Server, Database, GitBranch, Zap } from 'lucide-react'
+import { Code, Server, Database, GitBranch, Zap, FlaskConical, Cloud } from 'lucide-react'
 
 export const SkillsSection: React.FC = () => {
   const skills = [
@@ -12,21 +12,33 @@ export const SkillsSection: React.FC = () => {
     },
     {
       icon: <Server size={24} />,
-      title: 'BACKEND DEVELOPMENT', 
-      technologies: 'NODE.JS, PHP, LARAVEL, PYTHON',
+      title: 'BACKEND DEVELOPMENT',
+      technologies: 'NODE.JS, TYPESCRIPT, PHP, LARAVEL, PYTHON, GRAPHQL',
       color: 'from-green-500 to-teal-600'
+    },
+    {
+      icon: <Cloud size={24} />,
+      title: 'CLOUD & DEVOPS',
+      technologies: 'AWS LAMBDA, AWS SQS, GITHUB ACTIONS, DOCKER, APACHE',
+      color: 'from-purple-500 to-pink-600'
     },
     {
       icon: <Database size={24} />,
       title: 'DATABASE MANAGEMENT',
-      technologies: 'MYSQL, INDEXEDDB',
+      technologies: 'MYSQL, DYNAMODB, INDEXEDDB',
       color: 'from-orange-500 to-red-600'
     },
     {
       icon: <GitBranch size={24} />,
-      title: 'DEVOPS & CI/CD',
-      technologies: 'GITHUB ACTIONS, DOCKER, APACHE',
-      color: 'from-purple-500 to-pink-600'
+      title: 'ARCHITECTURE',
+      technologies: 'REST APIS, DISTRIBUTED SYSTEMS, MICROSERVICES, EVENT-DRIVEN WORKFLOWS, WEBSOCKETS',
+      color: 'from-cyan-500 to-blue-600'
+    },
+    {
+      icon: <FlaskConical size={24} />,
+      title: 'TESTING',
+      technologies: 'JEST, PLAYWRIGHT, UNIT TESTING, INTEGRATION TESTING, END-TO-END TESTING',
+      color: 'from-yellow-500 to-orange-600'
     }
   ]
   
@@ -40,7 +52,7 @@ export const SkillsSection: React.FC = () => {
         />
       </div>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {skills.map((skill, index) => (
           <div 
             key={index} 
